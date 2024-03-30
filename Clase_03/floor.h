@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <math.h>
-int main()
+int Ejemplo_floor()
 {
 double x = 6.54321;
-printf( "ceil( %f ) = %f\n", x, ceil(x) );
+printf( "floor( %f ) = %f\n", x, floor(x) );
 return 0;
 }
+

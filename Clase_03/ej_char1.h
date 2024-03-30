@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main()
+int Ejemplo_char_1()
 {
     char letra1= 65;
     char letra2='A';
