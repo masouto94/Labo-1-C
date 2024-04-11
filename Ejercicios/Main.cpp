@@ -16,6 +16,16 @@
 #include "../Clase_03/ej_char2.h"
 #include "../Clase_03/floor.h"
 #include "../Clase_03/fmod.h"
+
+#include "../Clase_06/do_while_loop.h"
+#include "../Clase_06/ejemplo_while_con_centinela.h"
+#include "../Clase_06/ejemplo-de-for.h"
+#include "../Clase_06/for_loop.h"
+#include "../Clase_06/while_1.h"
+#include "../Clase_06/while_2.h"
+#include "../Clase_06/while_loop.h"
+#include "../Clase_06/switch_con_while.h"
+
 int main(){
 //    int years;
 //    printf("Ingrese su edad en anios cumplidos\n");
@@ -29,6 +39,6 @@ int main(){
 //    float area = 40;
 //    double perimeter = Ejercicio_19(area);
 //    printf("El area es %.2f y el perimetro es %.2f\n", area,perimeter);
-    Ejercicio_7();
+    switchConWhile();
     return 0;
 }

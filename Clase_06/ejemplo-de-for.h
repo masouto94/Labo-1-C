@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-int main()
+int forLoopExample()
 {
     int edad, contador_asistentes, acumulador_edad=0, cantidad_alumnos;
     float promedio_edad;

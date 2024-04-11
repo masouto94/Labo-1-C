@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /* la función main comienza la ejecución del programa */
-int main()
+int forLoop()
 {
    int x; /* contador */
 
