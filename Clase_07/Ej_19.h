@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-int main()
+int Ej_19()
 {
     char cadena[6]; // Aquí alojaremos el valor leído
     int indice= 0,flag;

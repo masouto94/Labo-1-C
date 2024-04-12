@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 
-int main()
+int Get_Cadena()
 {
-    char cadena[20]; // Aquí alojaremos el valor leído
+    char cadena[6]; // Aquí alojaremos el valor leído
     int indice= 0;
 
     printf("Escribe tu nombre:\n");
-    scanf("%s",&cadena);
-    //gets(cadena); // No usamos &
+    //scanf("%s",&cadena);
+    gets(cadena);
     printf("Tu nombre es es: %s\n", cadena);
 
 
@@ -34,7 +34,6 @@ int main()
     }
 
     */
-
 
     return 0;
 

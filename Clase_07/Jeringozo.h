@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-int main()
+int Jeringozo()
 {
     char cadena[]= "Que miras bobo"; // Aquí alojaremos el valor leído
     int indiceCadena= 0;

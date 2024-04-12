@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+int Ciclos_anidados()
 {
 int x = 0; /* inicializa x */
 int y; /* define y */

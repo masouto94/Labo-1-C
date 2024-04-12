@@ -1,10 +1,9 @@
 #include<stdio.h>
-int main()
+int Ciclos_anidados_dependiente()
 {
 int x = 0; /* inicializa la x */
 int y; /* define la y */
-printf("--------------Variable dependiente en el ciclo----------------
-\n");
+printf("--------------Variable dependiente en el ciclo----------------\n");
 for (x = 0; x < 5; x++) { /*ciclo exterior repite 5 veces*/
  printf("\n%d iteracion de x", x); /* mensaje */
  for (y = 0; y < x; y++) { /*se repetirá en función del valor de x*/

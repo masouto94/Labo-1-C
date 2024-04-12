@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-int main()
+int Comparar()
 {
     char codigo[]="Hola Mundo"; // Aquí alojaremos el valor leído
     char cadena[15];
