@@ -7,9 +7,10 @@ int Get_Cadena()
     int indice= 0;
 
     printf("Escribe tu nombre:\n");
-    //scanf("%s",&cadena);
-    gets(cadena);
-    printf("Tu nombre es es: %s\n", cadena);
+//    gets(cadena);
+    char letra='_';
+    scanf("%c",&letra);
+    printf("Tu nombre es es: %d\n", letra);
 
 
     printf("For \n");
