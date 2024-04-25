@@ -3,13 +3,13 @@
 #define MAX_LEN 100
 char parseLetters(char nextLetter){
     if(nextLetter >='a' && nextLetter < 'z'){
-        return nextLetter++;
+        return nextLetter+1;
     }
     if (nextLetter == 'z'){
         return 'a';
     }
     if(nextLetter >='A' && nextLetter < 'Z'){
-        return nextLetter++;
+        return nextLetter+1;
     }
     if (nextLetter == 'Z'){
         return 'A';
@@ -23,13 +23,15 @@ char* swapper(char* swapInput){
     for(int i=0; swapInput[i] != '\0';i++){
         container[i] = parseLetters(swapInput[i]);
     }
-    printf("Result %s", container);
+    printf("La cadena invertida es\n");
+    printf("%s", container);
     return container;
 };
 int LetterSwapper(){
     char cadenaASwappear[MAX_LEN];
     printf("Ingrese una cadena a procesar\n");
     gets(cadenaASwappear);
-    printf("%s", swapper(cadenaASwappear));
+    swapper(cadenaASwappear);
+
     return 0;
 }
