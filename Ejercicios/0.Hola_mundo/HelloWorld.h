@@ -4,6 +4,8 @@
 #include <time.h>
 #include <array>
 #include <vector>
+#include <map>
+
 
 int HelloWorld(){
     srand(time(NULL));
@@ -53,6 +55,49 @@ int HelloWorld(){
       for(int i=0; i<4; i++){
       printf("Posicion %d el usuario puso %s y el codigo es %s => %s\n",i+1,inputUser[i],codigo.code[i],codigo.comparar(inputUser)[i]);
       };
+
+class RGBColor{
+
+    public:
+        int red;
+        int green;
+        int blue;
+
+        RGBColor();
+        RGBColor(int redValue, int greenValue, int blueValue){
+        red = redValue;
+        green = greenValue;
+        blue = blueValue;
+        }
+        //Funciones que retornan el color en rgb
+        static RGBColor Yellow(){
+            return RGBColor(255, 235, 59);
+        }
+        static RGBColor White(){
+           return RGBColor(250, 250, 250);
+        }
+        static RGBColor Orange(){
+           return RGBColor(245, 127, 23);
+        }
+        static RGBColor Green(){
+           return RGBColor(0, 77, 64);
+        }
+        static RGBColor Blue(){
+           return RGBColor(74, 20, 140);
+        }
+        static RGBColor Red(){
+           return RGBColor(183, 28, 28);
+        }
+        void show(){
+            printf("red: %d, green: %d, blue: %d\n", red,green, blue);
+            return;
+        }
+    };
+
+
+    RGBColor color = RGBColor::Green();
+    color.show();
+
     return 0;
 }
 
